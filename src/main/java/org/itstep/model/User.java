@@ -9,7 +9,6 @@ import javax.persistence.*;
 
 @Setter
 @Getter
-@Entity
 public class User {
 
     @Id
