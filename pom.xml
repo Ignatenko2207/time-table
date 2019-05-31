@@ -65,6 +65,13 @@
             <scope>test</scope>
         </dependency>
 
+        <!--SPRING-DATA-->
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-jpa</artifactId>
+            <version>2.1.8.RELEASE</version>
+        </dependency>
+
         <!--SWAGGER-->
         <dependency>
             <groupId>io.springfox</groupId>
@@ -121,13 +128,6 @@
             <version>${h2.version}</version>
         </dependency>
 
-        <!--POSTGRES DRIVER-->
-        <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-            <version>${postgres.version}</version>
-        </dependency>
-
         <!--JAXB-->
         <dependency>
             <groupId>javax.xml.bind</groupId>
@@ -143,6 +143,11 @@
             <groupId>com.sun.xml.bind</groupId>
             <artifactId>jaxb-impl</artifactId>
             <version>${jaxb.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+            <version>3.3.1</version>
         </dependency>
 
     </dependencies>
